@@ -1,5 +1,6 @@
 # AI Composer
 ![](img/Artificial-Intelligence-MUSIC.jpg)
+
 Can AI compose music? This repo contains code that uses LSTM to generate music.
 
 ## Music Generated
