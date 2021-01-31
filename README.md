@@ -4,12 +4,12 @@
 Can AI compose music? This repo contains code that uses LSTM to generate music.
 
 ## Music Generated
-| Title       | MP4 File  | Music Sheet |
+| Title       | Audio  | Music Sheet |
 | ------------------ |---------------- | -------------- |
-| Song #1  |[audio](https://drive.google.com/file/d/19-IQQIZVBzraFrzQiFwulbXvR51dkTH4/view?usp=sharing)|[pdf](https://drive.google.com/file/d/1mSyXggpy0btoLSkP0Bfk1Wr3L7VDbD9W/view?usp=sharing)      |
-| Song #2  |[audio](https://drive.google.com/file/d/1uw38gKr9i_DSnCHl3TkbNIzbwRHGo1TK/view?usp=sharing)|[pdf](https://drive.google.com/file/d/1llE5zcu09FEKQW-Roes8Hxfq45oAF232/view?usp=sharing)      |
-| Song #3  |[audio](https://drive.google.com/file/d/1LPTFcwrAzCDrWe4igV-pztoi4QenJgE7/view?usp=sharing)|[pdf](https://drive.google.com/file/d/1hojev8zJbceeRrc4TAaN6jQtu7dE76bU/view?usp=sharing)      |
-| Song #4 |[audio](https://drive.google.com/file/d/1fpHqLrsWEoLIACskXMB0un3r9t5Wjtbl/view?usp=sharing)|[pdf](https://drive.google.com/file/d/1cby4REE5XCTsPggfAQV5J20twqzsn2Ui/view?usp=sharing)      |
+| Song #1  |[soundtrack](https://youtu.be/_klcRx61xO4)|[pdf](https://drive.google.com/file/d/1mSyXggpy0btoLSkP0Bfk1Wr3L7VDbD9W/view?usp=sharing)      |
+| Song #2  |[soundtrack](https://youtu.be/y9gH0Zg4WZk)|[pdf](https://drive.google.com/file/d/1llE5zcu09FEKQW-Roes8Hxfq45oAF232/view?usp=sharing)      |
+| Song #3  |[soundtrack](https://youtu.be/pTB6eP2VTQA)|[pdf](https://drive.google.com/file/d/1hojev8zJbceeRrc4TAaN6jQtu7dE76bU/view?usp=sharing)      |
+| Song #4 |[soundtrack](https://youtu.be/4-Uk61gyPHA)|[pdf](https://drive.google.com/file/d/1cby4REE5XCTsPggfAQV5J20twqzsn2Ui/view?usp=sharing)      |
 
 
 ## Training
