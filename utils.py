@@ -28,11 +28,6 @@ def generate_dictionary(music_files):
      
     return dictionary
 
-
-
-#character_dictionary = generate_dictionary('train.txt')
-
-
 def read_song(filename):
     song_dictionary = {}
     counter = 0
@@ -47,8 +42,6 @@ def read_song(filename):
                 counter +=1
             line = f.readline()
     return song_dictionary
-
-#song_dictionary = read_song('train.txt')
 
 def encode_song(song , character_dictionary):
     """

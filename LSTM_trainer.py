@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[31]:
-
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -12,9 +7,7 @@ import numpy as np
 import sys
 from utils import *
 
-
 # In[32]:
-
 
 ################################# Hypyer parameter #################################
 alpha = 0.001
@@ -53,17 +46,11 @@ train_song_dic = read_song('train.txt')
 valid_song_dic = read_song('val.txt')
 test_song_dic = read_song('test.txt')
 
-
 # In[18]:
-
-
 train_rand_index = np.arange(len(train_song_dic))
 np.random.shuffle(train_rand_index)
 
-
 # In[35]:
-
-
 model = nn.LSTM(input_dim, hidden_dim, n_layers, batch_first=True).to(computing_device) # input models
 loss_function = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(),lr = alpha)
@@ -122,3 +109,6 @@ for i in range(epoch):
   
     train_loss.append(np.array(train_loss_epoch).mean())
 
+
+# %% save model
+torch.save(model.state_dict(), PATH)
