@@ -14,6 +14,8 @@ Can AI compose music? This repo contains code that uses LSTM to generate music.
 ## Requirements
 To install requirements:
 ```
+conda create -n music python=3.8
+conda activate music
 pip install -r requirements.txt
 ```
 
