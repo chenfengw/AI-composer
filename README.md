@@ -11,6 +11,11 @@ Can AI compose music? This repo contains code that uses LSTM to generate music.
 | Song #3  |[audio](https://youtu.be/pTB6eP2VTQA)|[pdf](https://drive.google.com/file/d/1hojev8zJbceeRrc4TAaN6jQtu7dE76bU/view?usp=sharing)      |
 | Song #4 |[audio](https://youtu.be/4-Uk61gyPHA)|[pdf](https://drive.google.com/file/d/1cby4REE5XCTsPggfAQV5J20twqzsn2Ui/view?usp=sharing)      |
 
+## Requirements
+To install requirements:
+```
+pip install -r requirements.txt
+```
 
 ## Training
 To train the model, run this command:
@@ -21,13 +26,14 @@ python LSTM_trainer.py
 
 ## Pre-trained Models
 You can download pretrained models here:
-- [LSTM_validloss_1.6.pt](LSTM_validloss_1.6.pt)
+- [model_pretrain.pt](model_pretrain.pt)
 
 ## Music Generation
 To generate music, run this command:
 ```
 python music_generation.py
 ```
+Generated music will be save in `music_generated.txt` in abc format. Use http://mandolintab.net/abcconverter.php to convert abc file to midi or pdf files. You can play midi file online at http://midiplayer.ehubsoft.net/.
 
 ## Collaboration
 This project is collaborated with Steven and Eric.
